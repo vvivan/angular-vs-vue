@@ -4,7 +4,9 @@ which one is the right choice for your project
 
 ## Angular
 ![Angular](/img/angular-webpack.jpg)
-Angular is a JavaScript framework based on TypeScript.
+**Angular** is a *TypeScript-based* Javascript framework.
+The history of Angular began in 2010 when the AngularJS framework was released by Google. In 2016 Angular 2 appeared, which was a complete rewrite of Angular JS. Together with Angular 4 and 5 released in 2017, these framework versions have become the main web development trends of the current year. And here are the reasons.
+Angular is used by Google, Wix, weather.com, healthcare.gov and Forbes (according to madewithangular, stackshare and libscore.com).
 
 ### Top Apps and Websites Developed with Angular
 
@@ -49,16 +51,19 @@ The Guardian is leading in the design and publishing arena, sponsoring several a
 Paypal is one of the worldwide leading Internet payment companies. It’s another example of large websites using AngularJS.
 
 ### Angular Pros
+- MVC framework - Angular is a traditional **MVC** (Model-View-Controller) framework. Due to this structure, the application is divided into three interconnected components. This enables developers to write well-structured code, which is even more beneficial for complex projects.
+- Simple implementation of two-way data binding - Two-way data binding means that any changes to the model affect the view, and vice versa when the view changes, the model is immediately changed as well. Angular allows simple two-way data binding, which is beneficial for simple applications. More complex apps will work faster with one-way data binding, which works only in one direction (view-to-model or model-to-view), depending on the needs of the software. This enables resources to be saved.
+- Big community - Angular has a big community, which has been  forming since the release of AngularJS and became even stronger when version 2 was released. The framework has had over 1 million downloads in the last month on npm and over 26 thousands stars on Github. This popularity means the availability of various solutions that are compatible with different versions of Angular, as well as the possibility of receiving advice from experienced developers and users without needing to contact the official support.
 - Modularity;
-- How we can use components with modules;
-- How we can use dependency injection;
+- Good code structure using components with modules;
+- Dependency injection;
 - There are many “pros” out of the box as a router, form validation, HttpClient, etc;
 - The high level of control;
 - Unlike React, Angular enables normal usage of HTML and CSS along with all their features and advantages.
 
 ### Angular Cons
+- Heavyweight code
 - It can be a little bit uneasy for inexperienced developers to work with it, especially when they have not got a sufficient background in JavaScript;
--  Angular is rather fluid. Every new version differs greatly from the previous version, which results in distrust of the framework;
 - A developer is limited if he/she wants to create a single-page application. There is no possibility to just drop it into your full stack or a multi-page application.
 
 ## Vue
@@ -69,6 +74,14 @@ It is used for the creation of interactive interfaces. To imagine how it works, 
 
 ### Top Apps and Websites Developed with Vue
 
+#### [1. Alibaba](https://www.alibaba.com)
+![Alibaba Site Image](/img/Alibaba.png)
+
+#### [2. Nintendo](https://www.nintendo.com/)
+![Nintendo Site Image](/img/nintendo.png)
+
+#### [3. Expedia](https://www.expedia.com)
+![Expedia Site Image](img/expedia.png)
 
 ### Vue Pros
 - JavaScript code, templates, and CSS code are not mixed as they are in React;
@@ -81,17 +94,21 @@ It is used for the creation of interactive interfaces. To imagine how it works, 
 - It’s relatively new and doesn’t have endorsement compared to Angular (backed by Google) and React (backed by Facebook).
 
 ## Conclusion
-So what should you choose? To tell the truth, all three options discussed here are quite beneficial. Nevertheless, it’s really hard to point out the best one. Just consider all the pros and cons and go with your gut.
+So what should you choose? To tell the truth, all options discussed here are quite beneficial. Nevertheless, it’s really hard to point out the best one. Just consider all the pros and cons and go with your gut.
 
-
-Your solution is **Angular** if you:
+Your solution is **Angular** if you are developing:
+- Enterprise software - Angular is good for applications with a complex architecture
+- Progressive web apps and hybrid mobile apps development
+- Cross-platform mobile development
+- If your app tends to get really large
 - Like TypeScript;
 - Like object-oriented-programing (OOP);
 - Want to create a scalable app;
 - Would like to engage many developers in the project;
 - Work with designers and need clean HTML.
 
-Your solution is **Vue.js** if you:
+Your solution is **Vue.js** if you are developing:
+- Dynamic high performance applications
 - Are a fan of a clean code;
 - Are looking for the simplest learning curve;
 - Need a lightweight framework;
